@@ -1,0 +1,14 @@
+!table
+!version 450
+!charset Neutral
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 7
+    CODE Char (2) ;
+    NAME Char (254) ;
+    DESIG_DATE Char (14) ;
+    HOTLINK Char (100) ;
+    STAT_AREA Decimal (19,11) ;
+    Shape_Leng Decimal (19,11) ;
+    Shape_Area Decimal (19,11) ;
